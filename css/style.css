@@ -343,57 +343,31 @@ img {
 /* sp */
 
 @media screen and (max-width:767px) {
+  .contact {
+    font-size: 0;
+  }
   .hamberger {
-    background-color: #fff;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    position: relative;
     width: 26px;
     float: right;
-    height: 20px;
-    font-size: 0;
+    cursor: pointer;
   }
-  .tomato{
-    position: absolute;
+  .hamberg {
+    /* position: absolute;
     top: -40%;
     bottom: 0;
     left: 0;
-    right: 0;
-    margin: auto;
+    right: 0; */
+    margin-bottom: 5px;
     height: 3px;
-    width: 26px;
     background-color: #ddd;
-    border-radius: 2px;
-    box-sizing: border-box;
   }
-  .hamberg {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: 3px;
-    width: 26px;
-    background-color: #ddd;
-    border-radius: 2px;
-    box-sizing: border-box;
-  } 
-  .letas{
-    position: absolute;
-    top: 48%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: 3px;
-    width: 26px;
-    background-color: #ddd;
-    border-radius: 2px;
-    box-sizing: border-box;
+  .hamberg:last-child {
+    margin-bottom: 0;
   }
-
+  
 
   .title-inner {
     padding: 160px 0 130px;
@@ -411,6 +385,9 @@ img {
     display: inline;
   }
 
+  .img {
+    width: 100%;
+  }
 
   .sns {
     padding: 50px 0;
